@@ -1,0 +1,1840 @@
+2025/10/14 17:43:35| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 17:43:35| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 17:43:35| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: HTTP requires the use of Via
+2025/10/14 17:43:35| Created PID file (/var/run/squid.pid)
+2025/10/14 17:43:35| Set Current Directory to /var/cache/squid
+2025/10/14 17:43:35| Creating missing swap directories
+2025/10/14 17:43:35| No cache_dir stores are configured.
+2025/10/14 17:43:35| Removing PID file (/var/run/squid.pid)
+2025/10/14 17:43:35| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 17:43:35| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 17:43:35| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 17:43:35| WARNING: HTTP requires the use of Via
+2025/10/14 17:43:35| Created PID file (/var/run/squid.pid)
+2025/10/14 17:43:35| Set Current Directory to /var/cache/squid
+2025/10/14 17:43:35| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/14 17:43:35| Service Name: squid
+2025/10/14 17:43:35| Process ID 1
+2025/10/14 17:43:35| Process Roles: master worker
+2025/10/14 17:43:35| With 1048576 file descriptors available
+2025/10/14 17:43:35| Initializing IP Cache...
+2025/10/14 17:43:35| DNS IPv6 socket created at [::], FD 10
+2025/10/14 17:43:35| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/14 17:43:35| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/14 17:43:35| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/14 17:43:35| Adding ndots 1 from /etc/resolv.conf
+2025/10/14 17:43:35| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/14 17:43:35| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/14 17:43:35| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/14 17:43:35| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/14 17:43:35| Store logging disabled
+2025/10/14 17:43:35| Swap maxSize 0 + 524288 KB, estimated 40329 objects
+2025/10/14 17:43:35| Target number of buckets: 2016
+2025/10/14 17:43:35| Using 8192 Store buckets
+2025/10/14 17:43:35| Max Mem  size: 524288 KB
+2025/10/14 17:43:35| Max Swap size: 0 KB
+2025/10/14 17:43:35| Using Least Load store dir selection
+2025/10/14 17:43:35| Set Current Directory to /var/cache/squid
+2025/10/14 17:43:35| Finished loading MIME types and icons.
+2025/10/14 17:43:35| HTCP Disabled.
+2025/10/14 17:43:35| Squid plugin modules loaded: 0
+2025/10/14 17:43:35| Adaptation support is off.
+2025/10/14 17:43:35| Accepting HTTP Socket connections at conn5 local=[::]:3128 remote=[::] FD 16 flags=9
+    listening port: 3128
+2025/10/14 17:43:35| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:4128 remote=[::] FD 17 flags=9
+    listening port: 4128
+2025/10/14 17:43:36| storeLateRelease: released 0 objects
+2025/10/14 17:44:07| Preparing for shutdown after 0 requests
+2025/10/14 17:44:07| Waiting 30 seconds for active connections to finish
+2025/10/14 17:44:07| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/14 17:44:07| Closing HTTP(S) port [::]:4128
+    listening port: 4128
+2025/10/14 17:44:59| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 17:44:59| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 17:44:59| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: HTTP requires the use of Via
+2025/10/14 17:44:59| Created PID file (/var/run/squid.pid)
+2025/10/14 17:44:59| Set Current Directory to /var/cache/squid
+2025/10/14 17:44:59| Creating missing swap directories
+2025/10/14 17:44:59| No cache_dir stores are configured.
+2025/10/14 17:44:59| Removing PID file (/var/run/squid.pid)
+2025/10/14 17:44:59| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 17:44:59| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 17:44:59| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 17:44:59| WARNING: HTTP requires the use of Via
+2025/10/14 17:44:59| Created PID file (/var/run/squid.pid)
+2025/10/14 17:44:59| Set Current Directory to /var/cache/squid
+2025/10/14 17:44:59| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/14 17:44:59| Service Name: squid
+2025/10/14 17:44:59| Process ID 1
+2025/10/14 17:44:59| Process Roles: master worker
+2025/10/14 17:44:59| With 1048576 file descriptors available
+2025/10/14 17:44:59| Initializing IP Cache...
+2025/10/14 17:44:59| DNS IPv6 socket created at [::], FD 10
+2025/10/14 17:44:59| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/14 17:44:59| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/14 17:44:59| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/14 17:44:59| Adding ndots 1 from /etc/resolv.conf
+2025/10/14 17:44:59| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/14 17:44:59| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/14 17:44:59| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/14 17:44:59| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/14 17:44:59| Store logging disabled
+2025/10/14 17:44:59| Swap maxSize 0 + 524288 KB, estimated 40329 objects
+2025/10/14 17:44:59| Target number of buckets: 2016
+2025/10/14 17:44:59| Using 8192 Store buckets
+2025/10/14 17:44:59| Max Mem  size: 524288 KB
+2025/10/14 17:44:59| Max Swap size: 0 KB
+2025/10/14 17:44:59| Using Least Load store dir selection
+2025/10/14 17:44:59| Set Current Directory to /var/cache/squid
+2025/10/14 17:44:59| Finished loading MIME types and icons.
+2025/10/14 17:44:59| HTCP Disabled.
+2025/10/14 17:44:59| Squid plugin modules loaded: 0
+2025/10/14 17:44:59| Adaptation support is off.
+2025/10/14 17:44:59| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 16 flags=9
+    listening port: 8000
+2025/10/14 17:44:59| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 17 flags=9
+    listening port: 3128
+2025/10/14 17:45:00| storeLateRelease: released 0 objects
+2025/10/14 17:45:05| Preparing for shutdown after 0 requests
+2025/10/14 17:45:05| Waiting 30 seconds for active connections to finish
+2025/10/14 17:45:05| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/14 17:45:05| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/14 17:45:40| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 17:45:40| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 17:45:40| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: HTTP requires the use of Via
+2025/10/14 17:45:40| Created PID file (/var/run/squid.pid)
+2025/10/14 17:45:40| Set Current Directory to /var/cache/squid
+2025/10/14 17:45:40| Creating missing swap directories
+2025/10/14 17:45:40| No cache_dir stores are configured.
+2025/10/14 17:45:40| Removing PID file (/var/run/squid.pid)
+2025/10/14 17:45:40| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 17:45:40| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 17:45:40| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 17:45:40| WARNING: HTTP requires the use of Via
+2025/10/14 17:45:40| Created PID file (/var/run/squid.pid)
+2025/10/14 17:45:40| Set Current Directory to /var/cache/squid
+2025/10/14 17:45:40| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/14 17:45:40| Service Name: squid
+2025/10/14 17:45:40| Process ID 1
+2025/10/14 17:45:40| Process Roles: master worker
+2025/10/14 17:45:40| With 1048576 file descriptors available
+2025/10/14 17:45:40| Initializing IP Cache...
+2025/10/14 17:45:40| DNS IPv6 socket created at [::], FD 10
+2025/10/14 17:45:40| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/14 17:45:40| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/14 17:45:40| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/14 17:45:40| Adding ndots 1 from /etc/resolv.conf
+2025/10/14 17:45:40| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/14 17:45:40| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/14 17:45:40| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/14 17:45:40| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/14 17:45:40| Store logging disabled
+2025/10/14 17:45:40| Swap maxSize 0 + 524288 KB, estimated 40329 objects
+2025/10/14 17:45:40| Target number of buckets: 2016
+2025/10/14 17:45:40| Using 8192 Store buckets
+2025/10/14 17:45:40| Max Mem  size: 524288 KB
+2025/10/14 17:45:40| Max Swap size: 0 KB
+2025/10/14 17:45:40| Using Least Load store dir selection
+2025/10/14 17:45:40| Set Current Directory to /var/cache/squid
+2025/10/14 17:45:40| Finished loading MIME types and icons.
+2025/10/14 17:45:40| HTCP Disabled.
+2025/10/14 17:45:40| Squid plugin modules loaded: 0
+2025/10/14 17:45:40| Adaptation support is off.
+2025/10/14 17:45:40| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 16 flags=9
+    listening port: 8000
+2025/10/14 17:45:40| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 17 flags=9
+    listening port: 3128
+2025/10/14 17:45:41| storeLateRelease: released 0 objects
+2025/10/14 17:47:50| ERROR: failure while accepting a TLS connection on conn225 local=172.18.0.2:3128 remote=60.243.185.21:52846 FD 28 flags=1: SQUID_TLS_ERR_ACCEPT+TLS_LIB_ERR=A000412+TLS_IO_ERR=1
+    current master transaction: master228
+2025/10/14 17:49:12| ERROR: failure while accepting a TLS connection on conn399 local=172.18.0.2:3128 remote=60.243.185.21:59586 FD 43 flags=1: SQUID_TLS_ERR_ACCEPT+TLS_LIB_ERR=A000412+TLS_IO_ERR=1
+    current master transaction: master228
+2025/10/14 18:01:24| Preparing for shutdown after 3034 requests
+2025/10/14 18:01:24| Waiting 30 seconds for active connections to finish
+2025/10/14 18:01:24| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/14 18:01:24| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/14 18:01:53| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 18:01:53| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 18:01:53| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: HTTP requires the use of Via
+2025/10/14 18:01:53| Created PID file (/var/run/squid.pid)
+2025/10/14 18:01:53| Set Current Directory to /var/cache/squid
+2025/10/14 18:01:53| Creating missing swap directories
+2025/10/14 18:01:53| No cache_dir stores are configured.
+2025/10/14 18:01:53| Removing PID file (/var/run/squid.pid)
+2025/10/14 18:01:53| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/14 18:01:53| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/14 18:01:53| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/14 18:01:53| WARNING: HTTP requires the use of Via
+2025/10/14 18:01:53| Created PID file (/var/run/squid.pid)
+2025/10/14 18:01:53| Set Current Directory to /var/cache/squid
+2025/10/14 18:01:53| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/14 18:01:53| Service Name: squid
+2025/10/14 18:01:53| Process ID 1
+2025/10/14 18:01:53| Process Roles: master worker
+2025/10/14 18:01:53| With 1048576 file descriptors available
+2025/10/14 18:01:53| Initializing IP Cache...
+2025/10/14 18:01:53| DNS IPv6 socket created at [::], FD 10
+2025/10/14 18:01:53| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/14 18:01:53| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/14 18:01:53| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/14 18:01:53| Adding ndots 1 from /etc/resolv.conf
+2025/10/14 18:01:53| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/14 18:01:53| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/14 18:01:53| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/14 18:01:53| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/14 18:01:53| Store logging disabled
+2025/10/14 18:01:53| Swap maxSize 0 + 524288 KB, estimated 40329 objects
+2025/10/14 18:01:53| Target number of buckets: 2016
+2025/10/14 18:01:53| Using 8192 Store buckets
+2025/10/14 18:01:53| Max Mem  size: 524288 KB
+2025/10/14 18:01:53| Max Swap size: 0 KB
+2025/10/14 18:01:53| Using Least Load store dir selection
+2025/10/14 18:01:53| Set Current Directory to /var/cache/squid
+2025/10/14 18:01:53| Finished loading MIME types and icons.
+2025/10/14 18:01:53| HTCP Disabled.
+2025/10/14 18:01:53| Squid plugin modules loaded: 0
+2025/10/14 18:01:53| Adaptation support is off.
+2025/10/14 18:01:53| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 16 flags=9
+    listening port: 8000
+2025/10/14 18:01:53| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 17 flags=9
+    listening port: 3128
+2025/10/14 18:01:54| storeLateRelease: released 0 objects
+2025/10/14 18:08:17| Preparing for shutdown after 127 requests
+2025/10/14 18:08:17| Waiting 30 seconds for active connections to finish
+2025/10/14 18:08:17| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/14 18:08:17| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/15 03:31:05| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 03:31:05| ERROR: This proxy does not support the 'null' cache type. Ignoring.
+2025/10/15 03:31:05| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 03:31:05| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 03:31:05| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 03:31:05| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 03:31:05| WARNING: HTTP requires the use of Via
+2025/10/15 03:31:05| Created PID file (/var/run/squid.pid)
+2025/10/15 03:31:05| Set Current Directory to /var/cache/squid
+2025/10/15 03:31:05| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 03:31:05| Service Name: squid
+2025/10/15 03:31:05| Process ID 1
+2025/10/15 03:31:05| Process Roles: master worker
+2025/10/15 03:31:05| With 1048576 file descriptors available
+2025/10/15 03:31:05| Initializing IP Cache...
+2025/10/15 03:31:05| DNS IPv6 socket created at [::], FD 10
+2025/10/15 03:31:05| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 03:31:05| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 03:31:05| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 03:31:05| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 03:31:05| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 03:31:05| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 03:31:05| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 03:31:05| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 03:31:05| Store logging disabled
+2025/10/15 03:31:05| Swap maxSize 0 + 524288 KB, estimated 40329 objects
+2025/10/15 03:31:05| Target number of buckets: 2016
+2025/10/15 03:31:05| Using 8192 Store buckets
+2025/10/15 03:31:05| Max Mem  size: 524288 KB
+2025/10/15 03:31:05| Max Swap size: 0 KB
+2025/10/15 03:31:05| Using Least Load store dir selection
+2025/10/15 03:31:05| Set Current Directory to /var/cache/squid
+2025/10/15 03:31:05| Finished loading MIME types and icons.
+2025/10/15 03:31:05| HTCP Disabled.
+2025/10/15 03:31:05| Squid plugin modules loaded: 0
+2025/10/15 03:31:05| Adaptation support is off.
+2025/10/15 03:31:05| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 16 flags=9
+    listening port: 8000
+2025/10/15 03:31:05| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 17 flags=9
+    listening port: 3128
+2025/10/15 03:31:06| storeLateRelease: released 0 objects
+2025/10/15 04:58:07| Preparing for shutdown after 2728 requests
+2025/10/15 04:58:07| Waiting 30 seconds for active connections to finish
+2025/10/15 04:58:07| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/15 04:58:07| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/15 05:00:11| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:11| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:11| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:11| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:11| Creating missing swap directories
+2025/10/15 05:00:11| Not currently OK to rewrite swap log.
+2025/10/15 05:00:11| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:11| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:11| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.015 user + 0.006 sys
+Maximum Resident Size: 71088 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:11| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:11| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:11| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:11| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:11| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:11| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:11| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:11| Service Name: squid
+2025/10/15 05:00:11| Process ID 1
+2025/10/15 05:00:11| Process Roles: master worker
+2025/10/15 05:00:11| With 1048576 file descriptors available
+2025/10/15 05:00:11| Initializing IP Cache...
+2025/10/15 05:00:11| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:11| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:11| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:11| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:11| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:11| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:11| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:11| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:12| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:12| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:12| Store logging disabled
+2025/10/15 05:00:12| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:12| Target number of buckets: 5954
+2025/10/15 05:00:12| Using 8192 Store buckets
+2025/10/15 05:00:12| Max Mem  size: 524288 KB
+2025/10/15 05:00:12| Max Swap size: 1024000 KB
+2025/10/15 05:00:12| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:12| Not currently OK to rewrite swap log.
+2025/10/15 05:00:12| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:12| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:12| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.040 user + 0.060 sys
+Maximum Resident Size: 676272 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:12| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:12| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:12| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:12| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:12| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:12| Creating missing swap directories
+2025/10/15 05:00:12| Not currently OK to rewrite swap log.
+2025/10/15 05:00:12| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:12| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:12| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.014 user + 0.007 sys
+Maximum Resident Size: 71088 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:12| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:12| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:12| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:12| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:12| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:12| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:12| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:12| Service Name: squid
+2025/10/15 05:00:12| Process ID 1
+2025/10/15 05:00:12| Process Roles: master worker
+2025/10/15 05:00:12| With 1048576 file descriptors available
+2025/10/15 05:00:12| Initializing IP Cache...
+2025/10/15 05:00:12| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:12| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:12| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:12| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:12| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:12| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:12| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:12| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:12| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:12| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:12| Store logging disabled
+2025/10/15 05:00:12| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:12| Target number of buckets: 5954
+2025/10/15 05:00:12| Using 8192 Store buckets
+2025/10/15 05:00:12| Max Mem  size: 524288 KB
+2025/10/15 05:00:12| Max Swap size: 1024000 KB
+2025/10/15 05:00:12| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:12| Not currently OK to rewrite swap log.
+2025/10/15 05:00:12| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:12| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:12| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.099 seconds = 0.039 user + 0.059 sys
+Maximum Resident Size: 675840 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:12| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:13| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:13| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:13| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:13| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:13| Creating missing swap directories
+2025/10/15 05:00:13| Not currently OK to rewrite swap log.
+2025/10/15 05:00:13| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:13| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:13| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.013 user + 0.008 sys
+Maximum Resident Size: 71616 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:13| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:13| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:13| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:13| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:13| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:13| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:13| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:13| Service Name: squid
+2025/10/15 05:00:13| Process ID 1
+2025/10/15 05:00:13| Process Roles: master worker
+2025/10/15 05:00:13| With 1048576 file descriptors available
+2025/10/15 05:00:13| Initializing IP Cache...
+2025/10/15 05:00:13| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:13| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:13| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:13| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:13| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:13| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:13| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:13| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:13| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:13| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:13| Store logging disabled
+2025/10/15 05:00:13| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:13| Target number of buckets: 5954
+2025/10/15 05:00:13| Using 8192 Store buckets
+2025/10/15 05:00:13| Max Mem  size: 524288 KB
+2025/10/15 05:00:13| Max Swap size: 1024000 KB
+2025/10/15 05:00:13| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:13| Not currently OK to rewrite swap log.
+2025/10/15 05:00:13| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:13| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:13| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.029 user + 0.070 sys
+Maximum Resident Size: 675776 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:13| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:14| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:14| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:14| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:14| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:14| Creating missing swap directories
+2025/10/15 05:00:14| Not currently OK to rewrite swap log.
+2025/10/15 05:00:14| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:14| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:14| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.015 user + 0.006 sys
+Maximum Resident Size: 72128 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:14| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:14| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:14| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:14| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:14| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:14| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:14| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:14| Service Name: squid
+2025/10/15 05:00:14| Process ID 1
+2025/10/15 05:00:14| Process Roles: master worker
+2025/10/15 05:00:14| With 1048576 file descriptors available
+2025/10/15 05:00:14| Initializing IP Cache...
+2025/10/15 05:00:14| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:14| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:14| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:14| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:14| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:14| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:14| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:14| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:14| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:14| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:14| Store logging disabled
+2025/10/15 05:00:14| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:14| Target number of buckets: 5954
+2025/10/15 05:00:14| Using 8192 Store buckets
+2025/10/15 05:00:14| Max Mem  size: 524288 KB
+2025/10/15 05:00:14| Max Swap size: 1024000 KB
+2025/10/15 05:00:14| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:14| Not currently OK to rewrite swap log.
+2025/10/15 05:00:14| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:14| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:14| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.039 user + 0.061 sys
+Maximum Resident Size: 675264 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:14| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:15| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:15| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:15| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:15| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:15| Creating missing swap directories
+2025/10/15 05:00:15| Not currently OK to rewrite swap log.
+2025/10/15 05:00:15| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:15| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:15| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.013 user + 0.008 sys
+Maximum Resident Size: 72128 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:15| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:15| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:15| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:15| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:15| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:15| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:15| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:15| Service Name: squid
+2025/10/15 05:00:15| Process ID 1
+2025/10/15 05:00:15| Process Roles: master worker
+2025/10/15 05:00:15| With 1048576 file descriptors available
+2025/10/15 05:00:15| Initializing IP Cache...
+2025/10/15 05:00:15| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:15| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:15| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:15| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:15| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:15| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:15| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:15| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:15| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:15| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:15| Store logging disabled
+2025/10/15 05:00:15| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:15| Target number of buckets: 5954
+2025/10/15 05:00:15| Using 8192 Store buckets
+2025/10/15 05:00:15| Max Mem  size: 524288 KB
+2025/10/15 05:00:15| Max Swap size: 1024000 KB
+2025/10/15 05:00:15| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:15| Not currently OK to rewrite swap log.
+2025/10/15 05:00:15| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:15| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:15| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.037 user + 0.063 sys
+Maximum Resident Size: 674752 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:15| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:17| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:17| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:17| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:17| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:17| Creating missing swap directories
+2025/10/15 05:00:17| Not currently OK to rewrite swap log.
+2025/10/15 05:00:17| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:17| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:17| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.014 user + 0.007 sys
+Maximum Resident Size: 71104 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:17| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:17| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:17| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:17| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:17| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:17| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:17| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:17| Service Name: squid
+2025/10/15 05:00:17| Process ID 1
+2025/10/15 05:00:17| Process Roles: master worker
+2025/10/15 05:00:17| With 1048576 file descriptors available
+2025/10/15 05:00:17| Initializing IP Cache...
+2025/10/15 05:00:17| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:17| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:17| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:17| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:17| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:17| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:17| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:17| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:17| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:17| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:17| Store logging disabled
+2025/10/15 05:00:17| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:17| Target number of buckets: 5954
+2025/10/15 05:00:17| Using 8192 Store buckets
+2025/10/15 05:00:17| Max Mem  size: 524288 KB
+2025/10/15 05:00:17| Max Swap size: 1024000 KB
+2025/10/15 05:00:17| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:17| Not currently OK to rewrite swap log.
+2025/10/15 05:00:17| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:17| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:17| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.037 user + 0.063 sys
+Maximum Resident Size: 676288 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:17| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:21| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:21| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:21| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:21| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:21| Creating missing swap directories
+2025/10/15 05:00:21| Not currently OK to rewrite swap log.
+2025/10/15 05:00:21| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:21| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:21| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.016 user + 0.005 sys
+Maximum Resident Size: 71104 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:21| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:21| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:21| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:21| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:21| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:21| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:21| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:21| Service Name: squid
+2025/10/15 05:00:21| Process ID 1
+2025/10/15 05:00:21| Process Roles: master worker
+2025/10/15 05:00:21| With 1048576 file descriptors available
+2025/10/15 05:00:21| Initializing IP Cache...
+2025/10/15 05:00:21| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:21| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:21| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:21| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:21| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:21| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:21| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:21| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:21| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:21| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:21| Store logging disabled
+2025/10/15 05:00:21| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:21| Target number of buckets: 5954
+2025/10/15 05:00:21| Using 8192 Store buckets
+2025/10/15 05:00:21| Max Mem  size: 524288 KB
+2025/10/15 05:00:21| Max Swap size: 1024000 KB
+2025/10/15 05:00:21| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:21| Not currently OK to rewrite swap log.
+2025/10/15 05:00:21| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:21| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:21| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.037 user + 0.062 sys
+Maximum Resident Size: 675776 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:21| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:28| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:28| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:28| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:28| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:28| Creating missing swap directories
+2025/10/15 05:00:28| Not currently OK to rewrite swap log.
+2025/10/15 05:00:28| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:28| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:28| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.016 user + 0.005 sys
+Maximum Resident Size: 71632 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:28| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:28| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:28| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:28| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:28| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:28| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:28| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:28| Service Name: squid
+2025/10/15 05:00:28| Process ID 1
+2025/10/15 05:00:28| Process Roles: master worker
+2025/10/15 05:00:28| With 1048576 file descriptors available
+2025/10/15 05:00:28| Initializing IP Cache...
+2025/10/15 05:00:28| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:28| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:28| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:28| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:28| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:28| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:28| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:28| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:28| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:28| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:28| Store logging disabled
+2025/10/15 05:00:28| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:28| Target number of buckets: 5954
+2025/10/15 05:00:28| Using 8192 Store buckets
+2025/10/15 05:00:28| Max Mem  size: 524288 KB
+2025/10/15 05:00:28| Max Swap size: 1024000 KB
+2025/10/15 05:00:28| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:28| Not currently OK to rewrite swap log.
+2025/10/15 05:00:28| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:28| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:28| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.099 seconds = 0.038 user + 0.061 sys
+Maximum Resident Size: 675776 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:28| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:41| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:41| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:41| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:41| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:41| Creating missing swap directories
+2025/10/15 05:00:41| Not currently OK to rewrite swap log.
+2025/10/15 05:00:41| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:41| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:00:41| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.018 user + 0.003 sys
+Maximum Resident Size: 71664 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:41| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:00:41| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:00:41| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:00:41| WARNING: HTTP requires the use of Via
+2025/10/15 05:00:41| Created PID file (/var/run/squid.pid)
+2025/10/15 05:00:41| Set Current Directory to /var/cache/squid
+2025/10/15 05:00:41| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:00:41| Service Name: squid
+2025/10/15 05:00:41| Process ID 1
+2025/10/15 05:00:41| Process Roles: master worker
+2025/10/15 05:00:41| With 1048576 file descriptors available
+2025/10/15 05:00:41| Initializing IP Cache...
+2025/10/15 05:00:41| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:00:41| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:00:41| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:00:41| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:00:41| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:00:41| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:00:41| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:00:41| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:00:41| Unlinkd pipe opened on FD 19
+2025/10/15 05:00:41| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:00:41| Store logging disabled
+2025/10/15 05:00:41| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:00:41| Target number of buckets: 5954
+2025/10/15 05:00:41| Using 8192 Store buckets
+2025/10/15 05:00:41| Max Mem  size: 524288 KB
+2025/10/15 05:00:41| Max Swap size: 1024000 KB
+2025/10/15 05:00:41| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:00:41| Not currently OK to rewrite swap log.
+2025/10/15 05:00:41| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:00:41| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:00:41| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.101 seconds = 0.044 user + 0.057 sys
+Maximum Resident Size: 676784 KB
+Page faults with physical i/o: 0
+2025/10/15 05:00:41| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:01:07| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:01:07| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: HTTP requires the use of Via
+2025/10/15 05:01:07| Created PID file (/var/run/squid.pid)
+2025/10/15 05:01:07| Set Current Directory to /var/cache/squid
+2025/10/15 05:01:07| Creating missing swap directories
+2025/10/15 05:01:07| Not currently OK to rewrite swap log.
+2025/10/15 05:01:07| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:01:07| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:01:07| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.014 user + 0.007 sys
+Maximum Resident Size: 70640 KB
+Page faults with physical i/o: 0
+2025/10/15 05:01:07| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:01:07| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:01:07| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:07| WARNING: HTTP requires the use of Via
+2025/10/15 05:01:07| Created PID file (/var/run/squid.pid)
+2025/10/15 05:01:07| Set Current Directory to /var/cache/squid
+2025/10/15 05:01:07| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:01:07| Service Name: squid
+2025/10/15 05:01:07| Process ID 1
+2025/10/15 05:01:07| Process Roles: master worker
+2025/10/15 05:01:07| With 1048576 file descriptors available
+2025/10/15 05:01:07| Initializing IP Cache...
+2025/10/15 05:01:07| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:01:07| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:01:07| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:01:07| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:01:07| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:01:07| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:01:07| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:01:07| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:01:07| Unlinkd pipe opened on FD 19
+2025/10/15 05:01:07| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:01:07| Store logging disabled
+2025/10/15 05:01:07| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:01:07| Target number of buckets: 5954
+2025/10/15 05:01:07| Using 8192 Store buckets
+2025/10/15 05:01:07| Max Mem  size: 524288 KB
+2025/10/15 05:01:07| Max Swap size: 1024000 KB
+2025/10/15 05:01:07| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:01:07| Not currently OK to rewrite swap log.
+2025/10/15 05:01:07| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:01:07| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:01:07| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.034 user + 0.066 sys
+Maximum Resident Size: 676800 KB
+Page faults with physical i/o: 0
+2025/10/15 05:01:07| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:01:59| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:01:59| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: HTTP requires the use of Via
+2025/10/15 05:01:59| Created PID file (/var/run/squid.pid)
+2025/10/15 05:01:59| Set Current Directory to /var/cache/squid
+2025/10/15 05:01:59| Creating missing swap directories
+2025/10/15 05:01:59| Not currently OK to rewrite swap log.
+2025/10/15 05:01:59| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:01:59| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:01:59| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.017 user + 0.004 sys
+Maximum Resident Size: 71088 KB
+Page faults with physical i/o: 0
+2025/10/15 05:01:59| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:01:59| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:01:59| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:01:59| WARNING: HTTP requires the use of Via
+2025/10/15 05:01:59| Created PID file (/var/run/squid.pid)
+2025/10/15 05:01:59| Set Current Directory to /var/cache/squid
+2025/10/15 05:01:59| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:01:59| Service Name: squid
+2025/10/15 05:01:59| Process ID 1
+2025/10/15 05:01:59| Process Roles: master worker
+2025/10/15 05:01:59| With 1048576 file descriptors available
+2025/10/15 05:01:59| Initializing IP Cache...
+2025/10/15 05:01:59| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:01:59| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:01:59| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:01:59| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:01:59| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:01:59| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:01:59| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:01:59| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:01:59| Unlinkd pipe opened on FD 19
+2025/10/15 05:01:59| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:01:59| Store logging disabled
+2025/10/15 05:01:59| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:01:59| Target number of buckets: 5954
+2025/10/15 05:01:59| Using 8192 Store buckets
+2025/10/15 05:01:59| Max Mem  size: 524288 KB
+2025/10/15 05:01:59| Max Swap size: 1024000 KB
+2025/10/15 05:01:59| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:01:59| Not currently OK to rewrite swap log.
+2025/10/15 05:01:59| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:01:59| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:01:59| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.040 user + 0.060 sys
+Maximum Resident Size: 675264 KB
+Page faults with physical i/o: 0
+2025/10/15 05:01:59| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:02:59| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:02:59| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: HTTP requires the use of Via
+2025/10/15 05:02:59| Created PID file (/var/run/squid.pid)
+2025/10/15 05:02:59| Set Current Directory to /var/cache/squid
+2025/10/15 05:02:59| Creating missing swap directories
+2025/10/15 05:02:59| Not currently OK to rewrite swap log.
+2025/10/15 05:02:59| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:02:59| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:02:59| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.017 user + 0.004 sys
+Maximum Resident Size: 70592 KB
+Page faults with physical i/o: 0
+2025/10/15 05:02:59| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:02:59| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:02:59| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:02:59| WARNING: HTTP requires the use of Via
+2025/10/15 05:02:59| Created PID file (/var/run/squid.pid)
+2025/10/15 05:02:59| Set Current Directory to /var/cache/squid
+2025/10/15 05:02:59| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:02:59| Service Name: squid
+2025/10/15 05:02:59| Process ID 1
+2025/10/15 05:02:59| Process Roles: master worker
+2025/10/15 05:02:59| With 1048576 file descriptors available
+2025/10/15 05:02:59| Initializing IP Cache...
+2025/10/15 05:02:59| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:02:59| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:02:59| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:02:59| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:02:59| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:02:59| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:02:59| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:02:59| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:03:00| Unlinkd pipe opened on FD 19
+2025/10/15 05:03:00| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:03:00| Store logging disabled
+2025/10/15 05:03:00| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:03:00| Target number of buckets: 5954
+2025/10/15 05:03:00| Using 8192 Store buckets
+2025/10/15 05:03:00| Max Mem  size: 524288 KB
+2025/10/15 05:03:00| Max Swap size: 1024000 KB
+2025/10/15 05:03:00| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:03:00| Not currently OK to rewrite swap log.
+2025/10/15 05:03:00| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:03:00| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:03:00| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.041 user + 0.059 sys
+Maximum Resident Size: 675776 KB
+Page faults with physical i/o: 0
+2025/10/15 05:03:00| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:04:00| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:04:00| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: HTTP requires the use of Via
+2025/10/15 05:04:00| Created PID file (/var/run/squid.pid)
+2025/10/15 05:04:00| Set Current Directory to /var/cache/squid
+2025/10/15 05:04:00| Creating missing swap directories
+2025/10/15 05:04:00| Not currently OK to rewrite swap log.
+2025/10/15 05:04:00| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:04:00| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:04:00| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.016 user + 0.005 sys
+Maximum Resident Size: 71104 KB
+Page faults with physical i/o: 0
+2025/10/15 05:04:00| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:04:00| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:04:00| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:04:00| WARNING: HTTP requires the use of Via
+2025/10/15 05:04:00| Created PID file (/var/run/squid.pid)
+2025/10/15 05:04:00| Set Current Directory to /var/cache/squid
+2025/10/15 05:04:00| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:04:00| Service Name: squid
+2025/10/15 05:04:00| Process ID 1
+2025/10/15 05:04:00| Process Roles: master worker
+2025/10/15 05:04:00| With 1048576 file descriptors available
+2025/10/15 05:04:00| Initializing IP Cache...
+2025/10/15 05:04:00| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:04:00| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:04:00| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:04:00| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:04:00| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:04:00| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:04:00| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:04:00| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:04:00| Unlinkd pipe opened on FD 19
+2025/10/15 05:04:00| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:04:00| Store logging disabled
+2025/10/15 05:04:00| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:04:00| Target number of buckets: 5954
+2025/10/15 05:04:00| Using 8192 Store buckets
+2025/10/15 05:04:00| Max Mem  size: 524288 KB
+2025/10/15 05:04:00| Max Swap size: 1024000 KB
+2025/10/15 05:04:00| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:04:00| Not currently OK to rewrite swap log.
+2025/10/15 05:04:00| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:04:00| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:04:00| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.101 seconds = 0.034 user + 0.066 sys
+Maximum Resident Size: 675776 KB
+Page faults with physical i/o: 0
+2025/10/15 05:04:00| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:05:00| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:05:00| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: HTTP requires the use of Via
+2025/10/15 05:05:00| Created PID file (/var/run/squid.pid)
+2025/10/15 05:05:00| Set Current Directory to /var/cache/squid
+2025/10/15 05:05:00| Creating missing swap directories
+2025/10/15 05:05:00| Not currently OK to rewrite swap log.
+2025/10/15 05:05:00| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:05:00| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:05:00| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.016 user + 0.005 sys
+Maximum Resident Size: 71104 KB
+Page faults with physical i/o: 0
+2025/10/15 05:05:00| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:05:00| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:05:00| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:05:00| WARNING: HTTP requires the use of Via
+2025/10/15 05:05:00| Created PID file (/var/run/squid.pid)
+2025/10/15 05:05:00| Set Current Directory to /var/cache/squid
+2025/10/15 05:05:00| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:05:00| Service Name: squid
+2025/10/15 05:05:00| Process ID 1
+2025/10/15 05:05:00| Process Roles: master worker
+2025/10/15 05:05:00| With 1048576 file descriptors available
+2025/10/15 05:05:00| Initializing IP Cache...
+2025/10/15 05:05:00| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:05:00| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:05:00| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:05:00| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:05:00| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:05:00| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:05:00| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:05:00| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:05:01| Unlinkd pipe opened on FD 19
+2025/10/15 05:05:01| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:05:01| Store logging disabled
+2025/10/15 05:05:01| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:05:01| Target number of buckets: 5954
+2025/10/15 05:05:01| Using 8192 Store buckets
+2025/10/15 05:05:01| Max Mem  size: 524288 KB
+2025/10/15 05:05:01| Max Swap size: 1024000 KB
+2025/10/15 05:05:01| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:05:01| Not currently OK to rewrite swap log.
+2025/10/15 05:05:01| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:05:01| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:05:01| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.041 user + 0.060 sys
+Maximum Resident Size: 676288 KB
+Page faults with physical i/o: 0
+2025/10/15 05:05:01| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:06:01| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:06:01| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: HTTP requires the use of Via
+2025/10/15 05:06:01| Created PID file (/var/run/squid.pid)
+2025/10/15 05:06:01| Set Current Directory to /var/cache/squid
+2025/10/15 05:06:01| Creating missing swap directories
+2025/10/15 05:06:01| Not currently OK to rewrite swap log.
+2025/10/15 05:06:01| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:06:01| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:06:01| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.013 user + 0.008 sys
+Maximum Resident Size: 71632 KB
+Page faults with physical i/o: 0
+2025/10/15 05:06:01| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:06:01| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:06:01| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:06:01| WARNING: HTTP requires the use of Via
+2025/10/15 05:06:01| Created PID file (/var/run/squid.pid)
+2025/10/15 05:06:01| Set Current Directory to /var/cache/squid
+2025/10/15 05:06:01| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:06:01| Service Name: squid
+2025/10/15 05:06:01| Process ID 1
+2025/10/15 05:06:01| Process Roles: master worker
+2025/10/15 05:06:01| With 1048576 file descriptors available
+2025/10/15 05:06:01| Initializing IP Cache...
+2025/10/15 05:06:01| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:06:01| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:06:01| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:06:01| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:06:01| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:06:01| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:06:01| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:06:01| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:06:01| Unlinkd pipe opened on FD 19
+2025/10/15 05:06:01| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:06:01| Store logging disabled
+2025/10/15 05:06:01| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:06:01| Target number of buckets: 5954
+2025/10/15 05:06:01| Using 8192 Store buckets
+2025/10/15 05:06:01| Max Mem  size: 524288 KB
+2025/10/15 05:06:01| Max Swap size: 1024000 KB
+2025/10/15 05:06:01| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:06:01| Not currently OK to rewrite swap log.
+2025/10/15 05:06:01| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:06:01| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:06:01| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.041 user + 0.060 sys
+Maximum Resident Size: 675760 KB
+Page faults with physical i/o: 0
+2025/10/15 05:06:01| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:07:01| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:07:01| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: HTTP requires the use of Via
+2025/10/15 05:07:01| Created PID file (/var/run/squid.pid)
+2025/10/15 05:07:01| Set Current Directory to /var/cache/squid
+2025/10/15 05:07:01| Creating missing swap directories
+2025/10/15 05:07:01| Not currently OK to rewrite swap log.
+2025/10/15 05:07:01| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:07:01| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:07:01| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.015 user + 0.006 sys
+Maximum Resident Size: 71104 KB
+Page faults with physical i/o: 0
+2025/10/15 05:07:01| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:07:01| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:07:01| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:07:01| WARNING: HTTP requires the use of Via
+2025/10/15 05:07:01| Created PID file (/var/run/squid.pid)
+2025/10/15 05:07:01| Set Current Directory to /var/cache/squid
+2025/10/15 05:07:02| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:07:02| Service Name: squid
+2025/10/15 05:07:02| Process ID 1
+2025/10/15 05:07:02| Process Roles: master worker
+2025/10/15 05:07:02| With 1048576 file descriptors available
+2025/10/15 05:07:02| Initializing IP Cache...
+2025/10/15 05:07:02| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:07:02| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:07:02| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:07:02| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:07:02| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:07:02| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:07:02| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:07:02| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:07:02| Unlinkd pipe opened on FD 19
+2025/10/15 05:07:02| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:07:02| Store logging disabled
+2025/10/15 05:07:02| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:07:02| Target number of buckets: 5954
+2025/10/15 05:07:02| Using 8192 Store buckets
+2025/10/15 05:07:02| Max Mem  size: 524288 KB
+2025/10/15 05:07:02| Max Swap size: 1024000 KB
+2025/10/15 05:07:02| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:07:02| Not currently OK to rewrite swap log.
+2025/10/15 05:07:02| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:07:02| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:07:02| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.099 seconds = 0.039 user + 0.060 sys
+Maximum Resident Size: 675328 KB
+Page faults with physical i/o: 0
+2025/10/15 05:07:02| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:08:02| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:08:02| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: HTTP requires the use of Via
+2025/10/15 05:08:02| Created PID file (/var/run/squid.pid)
+2025/10/15 05:08:02| Set Current Directory to /var/cache/squid
+2025/10/15 05:08:02| Creating missing swap directories
+2025/10/15 05:08:02| Not currently OK to rewrite swap log.
+2025/10/15 05:08:02| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:08:02| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:08:02| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.015 user + 0.006 sys
+Maximum Resident Size: 70576 KB
+Page faults with physical i/o: 0
+2025/10/15 05:08:02| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:08:02| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:08:02| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:08:02| WARNING: HTTP requires the use of Via
+2025/10/15 05:08:02| Created PID file (/var/run/squid.pid)
+2025/10/15 05:08:02| Set Current Directory to /var/cache/squid
+2025/10/15 05:08:02| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:08:02| Service Name: squid
+2025/10/15 05:08:02| Process ID 1
+2025/10/15 05:08:02| Process Roles: master worker
+2025/10/15 05:08:02| With 1048576 file descriptors available
+2025/10/15 05:08:02| Initializing IP Cache...
+2025/10/15 05:08:02| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:08:02| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:08:02| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:08:02| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:08:02| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:08:02| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:08:02| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:08:02| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:08:02| Unlinkd pipe opened on FD 19
+2025/10/15 05:08:02| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:08:02| Store logging disabled
+2025/10/15 05:08:02| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:08:02| Target number of buckets: 5954
+2025/10/15 05:08:02| Using 8192 Store buckets
+2025/10/15 05:08:02| Max Mem  size: 524288 KB
+2025/10/15 05:08:02| Max Swap size: 1024000 KB
+2025/10/15 05:08:02| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:08:02| Not currently OK to rewrite swap log.
+2025/10/15 05:08:02| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:08:02| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:08:02| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.099 seconds = 0.035 user + 0.065 sys
+Maximum Resident Size: 676272 KB
+Page faults with physical i/o: 0
+2025/10/15 05:08:02| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:09:02| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:09:02| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:02| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:02| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:02| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:02| WARNING: HTTP requires the use of Via
+2025/10/15 05:09:02| Created PID file (/var/run/squid.pid)
+2025/10/15 05:09:02| Set Current Directory to /var/cache/squid
+2025/10/15 05:09:02| Creating missing swap directories
+2025/10/15 05:09:02| Not currently OK to rewrite swap log.
+2025/10/15 05:09:02| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:09:02| FATAL: Failed to make swap directory /var/spool/squid: (13) Permission denied
+2025/10/15 05:09:02| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.021 seconds = 0.016 user + 0.005 sys
+Maximum Resident Size: 71104 KB
+Page faults with physical i/o: 0
+2025/10/15 05:09:02| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:09:03| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:09:03| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:03| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:03| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:03| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:03| WARNING: HTTP requires the use of Via
+2025/10/15 05:09:03| Created PID file (/var/run/squid.pid)
+2025/10/15 05:09:03| Set Current Directory to /var/cache/squid
+2025/10/15 05:09:03| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:09:03| Service Name: squid
+2025/10/15 05:09:03| Process ID 1
+2025/10/15 05:09:03| Process Roles: master worker
+2025/10/15 05:09:03| With 1048576 file descriptors available
+2025/10/15 05:09:03| Initializing IP Cache...
+2025/10/15 05:09:03| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:09:03| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:09:03| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:09:03| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:09:03| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:09:03| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:09:03| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:09:03| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:09:03| Unlinkd pipe opened on FD 19
+2025/10/15 05:09:03| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:09:03| Store logging disabled
+2025/10/15 05:09:03| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:09:03| Target number of buckets: 5954
+2025/10/15 05:09:03| Using 8192 Store buckets
+2025/10/15 05:09:03| Max Mem  size: 524288 KB
+2025/10/15 05:09:03| Max Swap size: 1024000 KB
+2025/10/15 05:09:03| ERROR: /var/spool/squid: (2) No such file or directory
+2025/10/15 05:09:03| Not currently OK to rewrite swap log.
+2025/10/15 05:09:03| storeDirWriteCleanLogs: Operation aborted.
+2025/10/15 05:09:03| FATAL: 	Failed to verify one of the swap directories, Check cache.log
+	for details.  Run 'squid -z' to create swap directories
+	if needed, or if running Squid for the first time.
+2025/10/15 05:09:03| Squid Cache (Version 6.12): Terminated abnormally.
+CPU Usage: 0.100 seconds = 0.035 user + 0.064 sys
+Maximum Resident Size: 675840 KB
+Page faults with physical i/o: 0
+2025/10/15 05:09:03| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:09:24| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:09:24| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: HTTP requires the use of Via
+2025/10/15 05:09:24| Created PID file (/var/run/squid.pid)
+2025/10/15 05:09:24| Set Current Directory to /var/cache/squid
+2025/10/15 05:09:24| Creating missing swap directories
+2025/10/15 05:09:24| /var/cache/squid exists
+2025/10/15 05:09:24| Making directories in /var/cache/squid/00
+2025/10/15 05:09:24| Making directories in /var/cache/squid/01
+2025/10/15 05:09:24| Making directories in /var/cache/squid/02
+2025/10/15 05:09:24| Making directories in /var/cache/squid/03
+2025/10/15 05:09:24| Making directories in /var/cache/squid/04
+2025/10/15 05:09:24| Making directories in /var/cache/squid/05
+2025/10/15 05:09:24| Making directories in /var/cache/squid/06
+2025/10/15 05:09:24| Making directories in /var/cache/squid/07
+2025/10/15 05:09:24| Making directories in /var/cache/squid/08
+2025/10/15 05:09:24| Making directories in /var/cache/squid/09
+2025/10/15 05:09:24| Making directories in /var/cache/squid/0A
+2025/10/15 05:09:24| Making directories in /var/cache/squid/0B
+2025/10/15 05:09:24| Making directories in /var/cache/squid/0C
+2025/10/15 05:09:24| Making directories in /var/cache/squid/0D
+2025/10/15 05:09:24| Making directories in /var/cache/squid/0E
+2025/10/15 05:09:24| Making directories in /var/cache/squid/0F
+2025/10/15 05:09:24| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:09:24| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:09:24| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:09:24| WARNING: HTTP requires the use of Via
+2025/10/15 05:09:24| Created PID file (/var/run/squid.pid)
+2025/10/15 05:09:24| Set Current Directory to /var/cache/squid
+2025/10/15 05:09:24| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:09:24| Service Name: squid
+2025/10/15 05:09:24| Process ID 1
+2025/10/15 05:09:24| Process Roles: master worker
+2025/10/15 05:09:24| With 1048576 file descriptors available
+2025/10/15 05:09:24| Initializing IP Cache...
+2025/10/15 05:09:24| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:09:24| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:09:24| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:09:24| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:09:24| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:09:24| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:09:24| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:09:24| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:09:25| Unlinkd pipe opened on FD 19
+2025/10/15 05:09:25| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:09:25| Store logging disabled
+2025/10/15 05:09:25| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:09:25| Target number of buckets: 5954
+2025/10/15 05:09:25| Using 8192 Store buckets
+2025/10/15 05:09:25| Max Mem  size: 524288 KB
+2025/10/15 05:09:25| Max Swap size: 1024000 KB
+2025/10/15 05:09:25| Rebuilding storage in /var/cache/squid (no log)
+2025/10/15 05:09:25| Using Least Load store dir selection
+2025/10/15 05:09:25| Set Current Directory to /var/cache/squid
+2025/10/15 05:09:25| Finished loading MIME types and icons.
+2025/10/15 05:09:25| HTCP Disabled.
+2025/10/15 05:09:25| Squid plugin modules loaded: 0
+2025/10/15 05:09:25| Adaptation support is off.
+2025/10/15 05:09:25| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 21 flags=9
+    listening port: 8000
+2025/10/15 05:09:25| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 22 flags=9
+    listening port: 3128
+2025/10/15 05:09:25| Done scanning /var/cache/squid dir (0 entries)
+2025/10/15 05:09:25| Finished rebuilding storage from disk.
+          0 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+          0 Objects loaded
+          0 Objects expired
+          0 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.04 seconds (0.00 objects/sec).
+2025/10/15 05:09:25| Beginning Validation Procedure
+2025/10/15 05:09:25| Completed Validation Procedure
+    Validated 0 Entries
+    store_swap_size = 0.00 KB
+2025/10/15 05:09:26| storeLateRelease: released 0 objects
+2025/10/15 05:15:35| Preparing for shutdown after 65 requests
+2025/10/15 05:15:35| Waiting 30 seconds for active connections to finish
+2025/10/15 05:15:35| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/15 05:15:35| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/15 05:16:17| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:16:17| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: HTTP requires the use of Via
+2025/10/15 05:16:17| Created PID file (/var/run/squid.pid)
+2025/10/15 05:16:17| Set Current Directory to /var/cache/squid
+2025/10/15 05:16:17| Creating missing swap directories
+2025/10/15 05:16:17| /var/cache/squid exists
+2025/10/15 05:16:17| /var/cache/squid/00 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/00
+2025/10/15 05:16:17| /var/cache/squid/01 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/01
+2025/10/15 05:16:17| /var/cache/squid/02 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/02
+2025/10/15 05:16:17| /var/cache/squid/03 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/03
+2025/10/15 05:16:17| /var/cache/squid/04 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/04
+2025/10/15 05:16:17| /var/cache/squid/05 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/05
+2025/10/15 05:16:17| /var/cache/squid/06 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/06
+2025/10/15 05:16:17| /var/cache/squid/07 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/07
+2025/10/15 05:16:17| /var/cache/squid/08 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/08
+2025/10/15 05:16:17| /var/cache/squid/09 exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/09
+2025/10/15 05:16:17| /var/cache/squid/0A exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/0A
+2025/10/15 05:16:17| /var/cache/squid/0B exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/0B
+2025/10/15 05:16:17| /var/cache/squid/0C exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/0C
+2025/10/15 05:16:17| /var/cache/squid/0D exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/0D
+2025/10/15 05:16:17| /var/cache/squid/0E exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/0E
+2025/10/15 05:16:17| /var/cache/squid/0F exists
+2025/10/15 05:16:17| Making directories in /var/cache/squid/0F
+2025/10/15 05:16:17| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:16:17| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:16:17| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:16:17| WARNING: HTTP requires the use of Via
+2025/10/15 05:16:17| Created PID file (/var/run/squid.pid)
+2025/10/15 05:16:17| Set Current Directory to /var/cache/squid
+2025/10/15 05:16:17| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:16:17| Service Name: squid
+2025/10/15 05:16:17| Process ID 1
+2025/10/15 05:16:17| Process Roles: master worker
+2025/10/15 05:16:17| With 1048576 file descriptors available
+2025/10/15 05:16:17| Initializing IP Cache...
+2025/10/15 05:16:17| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:16:17| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:16:17| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:16:17| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:16:17| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:16:17| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:16:17| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:16:17| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:16:18| Unlinkd pipe opened on FD 19
+2025/10/15 05:16:18| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:16:18| Store logging disabled
+2025/10/15 05:16:18| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:16:18| Target number of buckets: 5954
+2025/10/15 05:16:18| Using 8192 Store buckets
+2025/10/15 05:16:18| Max Mem  size: 524288 KB
+2025/10/15 05:16:18| Max Swap size: 1024000 KB
+2025/10/15 05:16:18| Rebuilding storage in /var/cache/squid (dirty log)
+2025/10/15 05:16:18| Using Least Load store dir selection
+2025/10/15 05:16:18| Set Current Directory to /var/cache/squid
+2025/10/15 05:16:18| Finished loading MIME types and icons.
+2025/10/15 05:16:18| HTCP Disabled.
+2025/10/15 05:16:18| Squid plugin modules loaded: 0
+2025/10/15 05:16:18| Adaptation support is off.
+2025/10/15 05:16:18| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 22 flags=9
+    listening port: 8000
+2025/10/15 05:16:18| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 23 flags=9
+    listening port: 3128
+2025/10/15 05:16:18| Done reading /var/cache/squid swaplog (0 entries)
+2025/10/15 05:16:18| Indexing cache entries: 0.00% (0 out of 1)
+2025/10/15 05:16:18| Finished rebuilding storage from disk.
+          0 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+          0 Objects loaded
+          0 Objects expired
+          0 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.01 seconds (0.00 objects/sec).
+2025/10/15 05:16:18| Beginning Validation Procedure
+2025/10/15 05:16:18| Completed Validation Procedure
+    Validated 0 Entries
+    store_swap_size = 0.00 KB
+2025/10/15 05:16:19| storeLateRelease: released 0 objects
+2025/10/15 05:29:21| Preparing for shutdown after 53 requests
+2025/10/15 05:29:21| Waiting 30 seconds for active connections to finish
+2025/10/15 05:29:21| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/15 05:29:21| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/15 05:49:10| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:49:10| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: HTTP requires the use of Via
+2025/10/15 05:49:10| Created PID file (/var/run/squid.pid)
+2025/10/15 05:49:10| Set Current Directory to /var/cache/squid
+2025/10/15 05:49:10| Creating missing swap directories
+2025/10/15 05:49:10| /var/cache/squid exists
+2025/10/15 05:49:10| /var/cache/squid/00 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/00
+2025/10/15 05:49:10| /var/cache/squid/01 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/01
+2025/10/15 05:49:10| /var/cache/squid/02 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/02
+2025/10/15 05:49:10| /var/cache/squid/03 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/03
+2025/10/15 05:49:10| /var/cache/squid/04 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/04
+2025/10/15 05:49:10| /var/cache/squid/05 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/05
+2025/10/15 05:49:10| /var/cache/squid/06 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/06
+2025/10/15 05:49:10| /var/cache/squid/07 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/07
+2025/10/15 05:49:10| /var/cache/squid/08 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/08
+2025/10/15 05:49:10| /var/cache/squid/09 exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/09
+2025/10/15 05:49:10| /var/cache/squid/0A exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/0A
+2025/10/15 05:49:10| /var/cache/squid/0B exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/0B
+2025/10/15 05:49:10| /var/cache/squid/0C exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/0C
+2025/10/15 05:49:10| /var/cache/squid/0D exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/0D
+2025/10/15 05:49:10| /var/cache/squid/0E exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/0E
+2025/10/15 05:49:10| /var/cache/squid/0F exists
+2025/10/15 05:49:10| Making directories in /var/cache/squid/0F
+2025/10/15 05:49:10| Removing PID file (/var/run/squid.pid)
+2025/10/15 05:49:10| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 05:49:10| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 05:49:10| WARNING: HTTP requires the use of Via
+2025/10/15 05:49:10| Created PID file (/var/run/squid.pid)
+2025/10/15 05:49:10| Set Current Directory to /var/cache/squid
+2025/10/15 05:49:10| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 05:49:10| Service Name: squid
+2025/10/15 05:49:10| Process ID 1
+2025/10/15 05:49:10| Process Roles: master worker
+2025/10/15 05:49:10| With 1048576 file descriptors available
+2025/10/15 05:49:10| Initializing IP Cache...
+2025/10/15 05:49:10| DNS IPv6 socket created at [::], FD 10
+2025/10/15 05:49:10| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 05:49:10| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 05:49:10| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 05:49:10| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 05:49:10| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 05:49:10| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 05:49:10| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 05:49:11| Unlinkd pipe opened on FD 19
+2025/10/15 05:49:11| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 05:49:11| Store logging disabled
+2025/10/15 05:49:11| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 05:49:11| Target number of buckets: 5954
+2025/10/15 05:49:11| Using 8192 Store buckets
+2025/10/15 05:49:11| Max Mem  size: 524288 KB
+2025/10/15 05:49:11| Max Swap size: 1024000 KB
+2025/10/15 05:49:11| Rebuilding storage in /var/cache/squid (dirty log)
+2025/10/15 05:49:11| Using Least Load store dir selection
+2025/10/15 05:49:11| Set Current Directory to /var/cache/squid
+2025/10/15 05:49:11| Finished loading MIME types and icons.
+2025/10/15 05:49:11| HTCP Disabled.
+2025/10/15 05:49:11| Squid plugin modules loaded: 0
+2025/10/15 05:49:11| Adaptation support is off.
+2025/10/15 05:49:11| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 22 flags=9
+    listening port: 8000
+2025/10/15 05:49:11| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 23 flags=9
+    listening port: 3128
+2025/10/15 05:49:11| Done reading /var/cache/squid swaplog (15 entries)
+2025/10/15 05:49:11| Finished rebuilding storage from disk.
+         15 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+         15 Objects loaded
+          0 Objects expired
+          0 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.01 seconds (1202.89 objects/sec).
+2025/10/15 05:49:11| Beginning Validation Procedure
+2025/10/15 05:49:11| Completed Validation Procedure
+    Validated 15 Entries
+    store_swap_size = 272.00 KB
+2025/10/15 05:49:12| storeLateRelease: released 0 objects
+2025/10/15 06:35:25| Preparing for shutdown after 307 requests
+2025/10/15 06:35:25| Waiting 30 seconds for active connections to finish
+2025/10/15 06:35:25| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/15 06:35:25| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/15 06:39:10| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 06:39:10| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: HTTP requires the use of Via
+2025/10/15 06:39:10| Created PID file (/var/run/squid.pid)
+2025/10/15 06:39:10| Set Current Directory to /var/cache/squid
+2025/10/15 06:39:10| Creating missing swap directories
+2025/10/15 06:39:10| /var/cache/squid exists
+2025/10/15 06:39:10| /var/cache/squid/00 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/00
+2025/10/15 06:39:10| /var/cache/squid/01 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/01
+2025/10/15 06:39:10| /var/cache/squid/02 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/02
+2025/10/15 06:39:10| /var/cache/squid/03 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/03
+2025/10/15 06:39:10| /var/cache/squid/04 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/04
+2025/10/15 06:39:10| /var/cache/squid/05 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/05
+2025/10/15 06:39:10| /var/cache/squid/06 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/06
+2025/10/15 06:39:10| /var/cache/squid/07 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/07
+2025/10/15 06:39:10| /var/cache/squid/08 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/08
+2025/10/15 06:39:10| /var/cache/squid/09 exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/09
+2025/10/15 06:39:10| /var/cache/squid/0A exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/0A
+2025/10/15 06:39:10| /var/cache/squid/0B exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/0B
+2025/10/15 06:39:10| /var/cache/squid/0C exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/0C
+2025/10/15 06:39:10| /var/cache/squid/0D exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/0D
+2025/10/15 06:39:10| /var/cache/squid/0E exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/0E
+2025/10/15 06:39:10| /var/cache/squid/0F exists
+2025/10/15 06:39:10| Making directories in /var/cache/squid/0F
+2025/10/15 06:39:10| Removing PID file (/var/run/squid.pid)
+2025/10/15 06:39:10| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 06:39:10| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 06:39:10| WARNING: HTTP requires the use of Via
+2025/10/15 06:39:10| Created PID file (/var/run/squid.pid)
+2025/10/15 06:39:10| Set Current Directory to /var/cache/squid
+2025/10/15 06:39:10| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 06:39:10| Service Name: squid
+2025/10/15 06:39:10| Process ID 1
+2025/10/15 06:39:10| Process Roles: master worker
+2025/10/15 06:39:10| With 1048576 file descriptors available
+2025/10/15 06:39:10| Initializing IP Cache...
+2025/10/15 06:39:10| DNS IPv6 socket created at [::], FD 10
+2025/10/15 06:39:10| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 06:39:10| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 06:39:10| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 06:39:10| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 06:39:10| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 06:39:10| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 06:39:10| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 06:39:11| Unlinkd pipe opened on FD 19
+2025/10/15 06:39:11| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 06:39:11| Store logging disabled
+2025/10/15 06:39:11| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 06:39:11| Target number of buckets: 5954
+2025/10/15 06:39:11| Using 8192 Store buckets
+2025/10/15 06:39:11| Max Mem  size: 524288 KB
+2025/10/15 06:39:11| Max Swap size: 1024000 KB
+2025/10/15 06:39:11| Rebuilding storage in /var/cache/squid (dirty log)
+2025/10/15 06:39:11| Using Least Load store dir selection
+2025/10/15 06:39:11| Set Current Directory to /var/cache/squid
+2025/10/15 06:39:11| Finished loading MIME types and icons.
+2025/10/15 06:39:11| HTCP Disabled.
+2025/10/15 06:39:11| Squid plugin modules loaded: 0
+2025/10/15 06:39:11| Adaptation support is off.
+2025/10/15 06:39:11| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 22 flags=9
+    listening port: 8000
+2025/10/15 06:39:11| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 23 flags=9
+    listening port: 3128
+2025/10/15 06:39:11| Done reading /var/cache/squid swaplog (34 entries)
+2025/10/15 06:39:11| Finished rebuilding storage from disk.
+         26 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+         26 Objects loaded
+          0 Objects expired
+          8 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.01 seconds (2104.75 objects/sec).
+2025/10/15 06:39:11| Beginning Validation Procedure
+2025/10/15 06:39:11| Completed Validation Procedure
+    Validated 26 Entries
+    store_swap_size = 316.00 KB
+2025/10/15 06:39:12| storeLateRelease: released 8 objects
+2025/10/15 06:51:54| Preparing for shutdown after 72 requests
+2025/10/15 06:51:54| Waiting 30 seconds for active connections to finish
+2025/10/15 06:51:54| Closing HTTP(S) port [::]:8000
+    listening port: 8000
+2025/10/15 06:51:54| Closing HTTP(S) port [::]:3128
+    listening port: 3128
+2025/10/15 06:52:08| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 06:52:08| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: HTTP requires the use of Via
+2025/10/15 06:52:08| Created PID file (/var/run/squid.pid)
+2025/10/15 06:52:08| Set Current Directory to /var/cache/squid
+2025/10/15 06:52:08| Creating missing swap directories
+2025/10/15 06:52:08| /var/cache/squid exists
+2025/10/15 06:52:08| /var/cache/squid/00 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/00
+2025/10/15 06:52:08| /var/cache/squid/01 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/01
+2025/10/15 06:52:08| /var/cache/squid/02 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/02
+2025/10/15 06:52:08| /var/cache/squid/03 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/03
+2025/10/15 06:52:08| /var/cache/squid/04 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/04
+2025/10/15 06:52:08| /var/cache/squid/05 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/05
+2025/10/15 06:52:08| /var/cache/squid/06 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/06
+2025/10/15 06:52:08| /var/cache/squid/07 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/07
+2025/10/15 06:52:08| /var/cache/squid/08 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/08
+2025/10/15 06:52:08| /var/cache/squid/09 exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/09
+2025/10/15 06:52:08| /var/cache/squid/0A exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/0A
+2025/10/15 06:52:08| /var/cache/squid/0B exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/0B
+2025/10/15 06:52:08| /var/cache/squid/0C exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/0C
+2025/10/15 06:52:08| /var/cache/squid/0D exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/0D
+2025/10/15 06:52:08| /var/cache/squid/0E exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/0E
+2025/10/15 06:52:08| /var/cache/squid/0F exists
+2025/10/15 06:52:08| Making directories in /var/cache/squid/0F
+2025/10/15 06:52:08| Removing PID file (/var/run/squid.pid)
+2025/10/15 06:52:08| Processing Configuration File: /etc/squid/squid.conf (depth 0)
+2025/10/15 06:52:08| WARNING: use of 'override-expire' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: use of 'reload-into-ims' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: use of 'ignore-reload' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: use of 'ignore-private' in 'refresh_pattern' violates HTTP
+2025/10/15 06:52:08| WARNING: HTTP requires the use of Via
+2025/10/15 06:52:08| Created PID file (/var/run/squid.pid)
+2025/10/15 06:52:08| Set Current Directory to /var/cache/squid
+2025/10/15 06:52:08| Starting Squid Cache version 6.12 for x86_64-alpine-linux-musl...
+2025/10/15 06:52:08| Service Name: squid
+2025/10/15 06:52:08| Process ID 1
+2025/10/15 06:52:08| Process Roles: master worker
+2025/10/15 06:52:08| With 1048576 file descriptors available
+2025/10/15 06:52:08| Initializing IP Cache...
+2025/10/15 06:52:08| DNS IPv6 socket created at [::], FD 10
+2025/10/15 06:52:08| DNS IPv4 socket created at 0.0.0.0, FD 11
+2025/10/15 06:52:08| Adding nameserver 127.0.0.11 from /etc/resolv.conf
+2025/10/15 06:52:08| Adding domain ap-south-2.compute.internal from /etc/resolv.conf
+2025/10/15 06:52:08| Adding ndots 1 from /etc/resolv.conf
+2025/10/15 06:52:08| helperOpenServers: Starting 1/1000 'security_file_certgen' processes
+2025/10/15 06:52:08| Logfile: opening log daemon:/var/log/squid/access.log
+2025/10/15 06:52:08| Logfile Daemon: opening log /var/log/squid/access.log
+2025/10/15 06:52:08| Unlinkd pipe opened on FD 19
+2025/10/15 06:52:08| Local cache digest enabled; rebuild/rewrite every 3600/3600 sec
+2025/10/15 06:52:08| Store logging disabled
+2025/10/15 06:52:08| Swap maxSize 1024000 + 524288 KB, estimated 119099 objects
+2025/10/15 06:52:08| Target number of buckets: 5954
+2025/10/15 06:52:08| Using 8192 Store buckets
+2025/10/15 06:52:08| Max Mem  size: 524288 KB
+2025/10/15 06:52:08| Max Swap size: 1024000 KB
+2025/10/15 06:52:08| Rebuilding storage in /var/cache/squid (dirty log)
+2025/10/15 06:52:08| Using Least Load store dir selection
+2025/10/15 06:52:08| Set Current Directory to /var/cache/squid
+2025/10/15 06:52:08| Finished loading MIME types and icons.
+2025/10/15 06:52:08| HTCP Disabled.
+2025/10/15 06:52:08| Squid plugin modules loaded: 0
+2025/10/15 06:52:08| Adaptation support is off.
+2025/10/15 06:52:08| Accepting HTTP Socket connections at conn5 local=[::]:8000 remote=[::] FD 22 flags=9
+    listening port: 8000
+2025/10/15 06:52:08| Accepting SSL bumped HTTP Socket connections at conn7 local=[::]:3128 remote=[::] FD 23 flags=9
+    listening port: 3128
+2025/10/15 06:52:08| Done reading /var/cache/squid swaplog (34 entries)
+2025/10/15 06:52:08| Finished rebuilding storage from disk.
+         26 Entries scanned
+          0 Invalid entries
+          0 With invalid flags
+         26 Objects loaded
+          0 Objects expired
+          8 Objects canceled
+          0 Duplicate URLs purged
+          0 Swapfile clashes avoided
+    Took 0.01 seconds (2117.26 objects/sec).
+2025/10/15 06:52:08| Beginning Validation Procedure
+2025/10/15 06:52:08| Completed Validation Procedure
+    Validated 26 Entries
+    store_swap_size = 316.00 KB
+2025/10/15 06:52:09| storeLateRelease: released 8 objects

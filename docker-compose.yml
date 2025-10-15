@@ -1,0 +1,30 @@
+# Author: Satish Gaikwad <satish@satishweb.com>
+# Please declare DOLLAR variable to dollar sign before running envsubst command on this file
+version: "3.4"
+networks:
+  proxy:
+
+services:
+  squid:
+    image: satishweb/squid-ssl-proxy:latest
+    networks:
+      - proxy
+    environment:
+      - CERT_CN=squid.local
+      - CERT_ORG=squid
+      - CERT_OU=squid
+      - CERT_COUNTRY=US
+      - SQUID_PROXY_PORT=${SQUID_PROXY_PORT}
+      - SQUID_PROXY_SSLBUMP_PORT=${SQUID_PROXY_SSLBUMP_PORT}
+    ports:
+      - "${SQUID_PROXY_PORT}:${SQUID_PROXY_PORT}"
+      - "${SQUID_PROXY_SSLBUMP_PORT}:${SQUID_PROXY_SSLBUMP_PORT}"
+        #dns:
+        #- ${DNS_SERVER}
+    volumes:
+      - ./data/log:/var/log/
+      - ./data/cache:/var/cache
+      - ./data/cert:/etc/squid-cert
+      - ./squid.conf:/templates/squid.sample.conf
+      # - ./scripts/entrypoint.sh /entrypoint
+    restart: always
