@@ -72,3 +72,4 @@ If you need to recreate the root certificate, you need to delete all files in th
 
 ## Credits
 - https://github.com/alatas/squid-alpine-ssl
+# squid-ssl-proxy
