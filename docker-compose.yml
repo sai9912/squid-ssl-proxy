@@ -1,5 +1,4 @@
-# Author: Satish Gaikwad <satish@satishweb.com>
-# Please declare DOLLAR variable to dollar sign before running envsubst command on this file
+
 version: "3.4"
 
 services:
@@ -14,8 +13,8 @@ services:
       - CERT_ORG=squid
       - CERT_OU=squid
       - CERT_COUNTRY=US
-      #- SQUID_PROXY_PORT=${SQUID_PROXY_PORT}
-      #- SQUID_PROXY_SSLBUMP_PORT=${SQUID_PROXY_SSLBUMP_PORT}
+        #- SQUID_PROXY_PORT=${SQUID_PROXY_PORT}
+        #- SQUID_PROXY_SSLBUMP_PORT=${SQUID_PROXY_SSLBUMP_PORT}
 
     # No 'ports:' section needed with host networking
     # ports:
