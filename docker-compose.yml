@@ -1,35 +1,38 @@
 # Author: Satish Gaikwad <satish@satishweb.com>
 # Please declare DOLLAR variable to dollar sign before running envsubst command on this file
 version: "3.4"
-networks:
-  proxy:
 
 services:
   squid:
     image: satishweb/squid-ssl-proxy:latest
-    networks:
-      - proxy
+
+    # Use the host's network stack (binds directly to host IPs/ports from squid.conf)
+    network_mode: "host"
+
     environment:
       - CERT_CN=squid.local
       - CERT_ORG=squid
       - CERT_OU=squid
       - CERT_COUNTRY=US
-      - SQUID_PROXY_PORT=${SQUID_PROXY_PORT}
-      - SQUID_PROXY_SSLBUMP_PORT=${SQUID_PROXY_SSLBUMP_PORT}
-    ports:
-      - "${SQUID_PROXY_PORT}:${SQUID_PROXY_PORT}"
-      - "${SQUID_PROXY_SSLBUMP_PORT}:${SQUID_PROXY_SSLBUMP_PORT}"
-        #dns:
-        #- ${DNS_SERVER}
+      #- SQUID_PROXY_PORT=${SQUID_PROXY_PORT}
+      #- SQUID_PROXY_SSLBUMP_PORT=${SQUID_PROXY_SSLBUMP_PORT}
+
+    # No 'ports:' section needed with host networking
+    # ports:
+    #   - "${SQUID_PROXY_PORT}:${SQUID_PROXY_PORT}"
+    #   - "${SQUID_PROXY_SSLBUMP_PORT}:${SQUID_PROXY_SSLBUMP_PORT}"
+
     volumes:
       - ./data/log:/var/log/
-      #- ./data/cache:/var/cache
+      # - ./data/cache:/var/cache
       - ./data/cert:/etc/squid-cert
       - ./squid.conf:/templates/squid.sample.conf
       # - ./scripts/entrypoint.sh /entrypoint
+
     restart: always
+
     logging:
       driver: json-file
       options:
         max-size: "20m"
-        max-file: "5"    
+        max-file: "5"
