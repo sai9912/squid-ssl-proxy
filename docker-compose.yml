@@ -22,9 +22,14 @@ services:
         #dns:
         #- ${DNS_SERVER}
     volumes:
-      - ./data/log:/var/log/
+      #- ./data/log:/var/log/
       #- ./data/cache:/var/cache
       - ./data/cert:/etc/squid-cert
       - ./squid.conf:/templates/squid.sample.conf
       # - ./scripts/entrypoint.sh /entrypoint
     restart: always
+    logging:
+      driver: json-file
+      options:
+        max-size: "20m"
+        max-file: "5"    
