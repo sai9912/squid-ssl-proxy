@@ -23,7 +23,7 @@ services:
         #- ${DNS_SERVER}
     volumes:
       - ./data/log:/var/log/
-      - ./data/cache:/var/cache
+      #- ./data/cache:/var/cache
       - ./data/cert:/etc/squid-cert
       - ./squid.conf:/templates/squid.sample.conf
       # - ./scripts/entrypoint.sh /entrypoint
