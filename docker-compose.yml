@@ -22,7 +22,7 @@ services:
         #dns:
         #- ${DNS_SERVER}
     volumes:
-      #- ./data/log:/var/log/
+      - ./data/log:/var/log/
       #- ./data/cache:/var/cache
       - ./data/cert:/etc/squid-cert
       - ./squid.conf:/templates/squid.sample.conf
