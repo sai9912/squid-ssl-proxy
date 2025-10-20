@@ -9,7 +9,7 @@ services:
     network_mode: "host"
 
     environment:
-      - CERT_CN=squid.local
+      - CERT_CN=open.fast
       - CERT_ORG=squid
       - CERT_OU=squid
       - CERT_COUNTRY=US
