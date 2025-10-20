@@ -10,8 +10,8 @@ services:
 
     environment:
       - CERT_CN=open.fast
-      - CERT_ORG=squid
-      - CERT_OU=squid
+      - CERT_ORG=speedopen
+      - CERT_OU=sppedopen
       - CERT_COUNTRY=US
         #- SQUID_PROXY_PORT=${SQUID_PROXY_PORT}
         #- SQUID_PROXY_SSLBUMP_PORT=${SQUID_PROXY_SSLBUMP_PORT}
