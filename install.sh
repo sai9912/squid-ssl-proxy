@@ -9,5 +9,5 @@ docker-compose --version
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 
-sed -i -E 's|(http_port )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+(:8000 .* name=ip1)|\145.120.138.113\2|; s|(tcp_outgoing_address )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+( to_ip1)|\145.120.138.113\2|' ./squid.conf
+IP=$(ip -4 addr show dev enp1s0 | grep -oP '(?<=inet\s)\d+(\.\d+){3}') && sed -i -E "s|(http_port )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+(:8000 .* name=ip1)|\1$IP\2|; s|(tcp_outgoing_address )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+( to_ip1)|\1$IP\2|" ./squid.conf
 
