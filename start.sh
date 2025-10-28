@@ -1,2 +1,2 @@
 bash ./install.sh
-bahs ./launch.sh
+bash ./launch.sh
