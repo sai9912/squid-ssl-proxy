@@ -48,6 +48,7 @@ __validations() {
 __removeDockerContainers() {
     docker-compose -f .local-docker-compose.yml -p "${STACK}" down
     docker system prune -a -f
+    rm -rf ./data/log/squid/access.log
 }
 
 __findWorkDir
