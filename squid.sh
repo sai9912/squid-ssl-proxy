@@ -11,7 +11,7 @@ BASE_DIR="/root/squid-auth-proxy"
 mkdir -p "$BASE_DIR/data/log" "$BASE_DIR/data/cache" "$BASE_DIR/data/auth"
 chmod -R 777 "$BASE_DIR/data/log" "$BASE_DIR/data/cache"
 
-IFACE=$(ip -o link show | awk -F': ' '$2 ~ /^enp/ {print $2; exit}')
+IFACE=$(ip -o link show | awk -F': ' '$2 ~ /^ens/ {print $2; exit}')
 IPS=$(ip -4 addr show dev "$IFACE" | awk '/inet / {print $2}' | cut -d/ -f1)
 
 HASH=$(openssl passwd -apr1 "$USER_PASS")
