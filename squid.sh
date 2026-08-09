@@ -3,7 +3,7 @@ set -euo pipefail
 
 USER_NAME="usr"
 USER_PASS="pass"
-PORT="80"
+PORT="8080"
 IMAGE="ubuntu/squid:latest"
 CONTAINER_NAME="squid"
 BASE_DIR="/root/squid-auth-proxy"
