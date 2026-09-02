@@ -20,7 +20,7 @@ if [ ! -f "$BASE_DIR/certs/private.pem" ]; then
 fi
 chmod 644 "$BASE_DIR/certs/private.pem"
 
-# 3. Build a custom Alpine Docker image with OpenSSL and a log-streaming Entrypoint
+# 3. Build a custom Alpine Docker image with OpenSSL and an auto-truncating log-streaming Entrypoint
 echo "Building custom Squid image with OpenSSL support..."
 cat > "$BASE_DIR/Dockerfile" <<'EOF'
 FROM alpine:latest
@@ -33,6 +33,7 @@ RUN echo '#!/bin/sh' > /entrypoint.sh && \
     echo 'chown -R squid:squid /var/log/squid' >> /entrypoint.sh && \
     echo 'tail -F /var/log/squid/access.log > /dev/stdout &' >> /entrypoint.sh && \
     echo 'tail -F /var/log/squid/cache.log > /dev/stderr &' >> /entrypoint.sh && \
+    echo '(while true; do sleep 86400; truncate -s 0 /var/log/squid/access.log /var/log/squid/cache.log; done) &' >> /entrypoint.sh && \
     echo 'exec squid -N -d 1' >> /entrypoint.sh && \
     chmod +x /entrypoint.sh
 
@@ -126,14 +127,16 @@ maximum_object_size_in_memory 20 MB
 
 acl target_cache_domain dstdomain .tirupatibalaji.ap.gov.in
 
-# Added .json to the regex so footer.json etc are caught
 acl static_files urlpath_regex -i \.(png|jpg|jpeg|gif|ico|css|js|json|woff|woff2|ttf|svg)(\?.*)?$
+acl cacheable_apis urlpath_regex -i /common/banks
 
-# Strip Set-Cookie and Vary headers from the server's reply so Squid doesn't refuse to cache it
 reply_header_access Set-Cookie deny static_files
 reply_header_access Vary deny static_files
+reply_header_access Set-Cookie deny cacheable_apis
+reply_header_access Vary deny cacheable_apis
 
 cache allow target_cache_domain static_files
+cache allow target_cache_domain cacheable_apis
 cache deny all
 
 access_log /var/log/squid/access.log
@@ -144,8 +147,8 @@ pid_filename /tmp/squid.pid
 client_persistent_connections on
 server_persistent_connections on
 
-# Added ignore-reload to bypass browser DevTools "Disable Cache" instructions
 refresh_pattern -i \.(png|jpg|jpeg|gif|ico|css|js|json|woff|woff2|ttf|svg)(\?.*)?$ 10080 100% 10080 override-expire override-lastmod ignore-reload ignore-no-cache ignore-no-store ignore-private ignore-auth ignore-must-revalidate
+refresh_pattern -i /common/banks 10080 100% 10080 override-expire override-lastmod ignore-reload ignore-no-cache ignore-no-store ignore-private ignore-auth ignore-must-revalidate
 
 refresh_pattern . 0 20% 4320
 EOF
@@ -158,6 +161,8 @@ docker run -d \
   --name "$CONTAINER_NAME" \
   --restart always  \
   --network host \
+  --log-opt max-size=50m \
+  --log-opt max-file=3 \
   -v "$BASE_DIR/squid.conf:/etc/squid/squid.conf:ro" \
   -v "$BASE_DIR/data/auth/passwd:/etc/squid/passwd:ro" \
   -v "$BASE_DIR/certs:/etc/squid-cert:ro" \
